@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #14171f;
+  --color-paper: #f7f5ef;
+  --color-paper-dim: #efece3;
+  --color-brass: #b8863b;
+  --color-brass-light: #d9ac6a;
+  --color-indigo: #26315c;
+  --color-indigo-light: #3a4a86;
+  --color-slate: #5b6472;
+  --color-line: rgba(20, 23, 31, 0.12);
+  --color-line-dark: rgba(247, 245, 239, 0.16);
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-paper: var(--color-paper);
+  --color-paper-dim: var(--color-paper-dim);
+  --color-brass: var(--color-brass);
+  --color-brass-light: var(--color-brass-light);
+  --color-indigo: var(--color-indigo);
+  --color-indigo-light: var(--color-indigo-light);
+  --color-slate: var(--color-slate);
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+  --font-data: var(--font-plex-mono);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body), sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-fraunces), serif;
+}
+
+.font-data {
+  font-family: var(--font-plex-mono), monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.ledger-rule {
+  border-top: 1px solid var(--color-line);
+}
+
+.ledger-rule-dark {
+  border-top: 1px solid var(--color-line-dark);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-brass);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--color-brass-light);
+  color: var(--color-ink);
+}
