@@ -1,11 +1,4 @@
-# Accredian Enterprise — Partial Clone
 
-A partial clone of the [Accredian Enterprise](https://enterprise.accredian.com/)
-landing page, built for the Full Stack Developer Intern assignment. Built with
-Next.js (App Router), TypeScript, and Tailwind CSS.
-
-**Live demo:** _add your Vercel URL here after deploying_
-**Repo:** _add your GitHub URL here_
 
 ---
 
