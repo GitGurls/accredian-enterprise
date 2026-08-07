@@ -1,24 +1,5 @@
 
 
----
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-To build for production:
-
-```bash
-npm run build
-npm run start
-```
-
-No environment variables are required to run this locally.
-
-## Project Structure
 
 ```
 app/
