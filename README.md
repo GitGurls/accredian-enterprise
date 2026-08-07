@@ -2,16 +2,6 @@
 
 ---
 
-## Tech Stack
-
-- **Next.js 16** (App Router, functional components + hooks)
-- **TypeScript**
-- **Tailwind CSS v4** — custom design tokens (colors, fonts) instead of default theme
-- **lucide-react** for icons
-- Next.js Route Handler (`/api/lead`) for the lead capture API
-
-## Getting Started
-
 ```bash
 npm install
 npm run dev
