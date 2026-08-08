@@ -1,15 +1,6 @@
 
 
 
-```
-app/
-
-    Button.tsx          # Shared button (primary/secondary/ghost)
-    SectionHeading.tsx  # Shared eyebrow + heading + description block
-lib/
-  data.ts               # Mock content (nav links, features, stats, testimonials)
-```
-
 
    results/stats, testimonials, lead form, footer) and rebuilt them as
    independent, typed components with mock copy.
