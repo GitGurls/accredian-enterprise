@@ -10,11 +10,7 @@ lib/
   data.ts               # Mock content (nav links, features, stats, testimonials)
 ```
 
-## Approach
 
-1. **Content, not pixels.** Rather than pixel-matching the live site, I
-   extracted the actual sections and message the real Accredian Enterprise
-   page uses (hero, partner trust bar, feature grid, 4-step process,
    results/stats, testimonials, lead form, footer) and rebuilt them as
    independent, typed components with mock copy.
 2. **Design system first.** All colors and fonts are defined once in
