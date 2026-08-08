@@ -3,23 +3,7 @@
 
 ```
 app/
-  layout.tsx          # Root layout, fonts, metadata
-  page.tsx             # Assembles all sections
-  globals.css          # Design tokens (colors, fonts) as Tailwind v4 @theme
-  api/lead/route.ts    # POST/GET route for the lead capture form
-components/
-  Header.tsx           # Sticky nav with mobile menu
-  Hero.tsx              # Split hero + "program ledger" stat card
-  TrustBar.tsx          # Partner institution strip
-  FeatureCard.tsx       # Reusable card used by FeatureGrid
-  FeatureGrid.tsx       # "Why Us" section
-  ProcessSteps.tsx      # "How It Works" 4-step section
-  StatsLedger.tsx       # "Results" stat block
-  Testimonials.tsx      # Quote cards
-  LeadForm.tsx          # Client component, calls /api/lead
-  CTASection.tsx
-  Footer.tsx
-  ui/
+
     Button.tsx          # Shared button (primary/secondary/ghost)
     SectionHeading.tsx  # Shared eyebrow + heading + description block
 lib/
