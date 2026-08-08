@@ -53,22 +53,6 @@ I used **Claude** throughout this project. Being transparent about where and how
 - Wrote this README's structure and confirmed the setup/build steps work
   end to end locally before documenting them.
 
-## Improvements With More Time
-
-- Replace the JSON-file lead storage with a real database (Postgres via
-  Prisma, or a managed service) so submissions persist across deploys.
-- Add unit tests (e.g. Vitest + React Testing Library) for the lead form
-  and the API route's validation logic.
-- Add a real CMS or MDX-driven content layer instead of the static
-  `lib/data.ts` so copy can be edited without a redeploy.
-- Motion: a subtle scroll-reveal for each section, respecting
-  `prefers-reduced-motion`.
-- Real partner/institution logos (SVGs) instead of text wordmarks, and an
-  actual company logo/wordmark for Accredian Enterprise.
-- Accessibility pass with a screen reader and axe DevTools beyond the
-  keyboard-focus states already in place.
-
----
 
 _This is an educational clone built for an internship assignment and is not
 affiliated with or endorsed by Accredian._
