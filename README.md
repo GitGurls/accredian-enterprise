@@ -1,23 +1,7 @@
 
 
 
-
-   
-2. **Design system first.** All colors and fonts are defined once in
-   `app/globals.css` as CSS variables (Tailwind v4's `@theme inline`), so
-   every component pulls from the same palette (`ink`, `paper`, `brass`,
-   `indigo`, `slate`) instead of hardcoded hex values. This made it easy to
-   keep the enterprise/academic tone (serif display font + a brass/gold
-   accent evoking credentials and academic partnerships) consistent
-   throughout.
-3. **Componentization.** `Button`, `SectionHeading`, and `FeatureCard` are
-   the reusable primitives; every section is its own component, and
-   `app/page.tsx` is just a composition of them — no logic lives there.
-4. **API integration.** `/api/lead` is a real Next.js Route Handler (not a
-   third-party mock): it validates the payload, persists submissions to a
-   JSON file, and returns a typed response. On Vercel's serverless runtime,
-   it falls back to writing under `/tmp` since the deployed filesystem is
-   read-only outside of it (noted in the code comments) — in a production
+ion
    system this would be swapped for a real database.
 5. **Responsiveness.** Every section was built mobile-first with Tailwind's
    breakpoints (`sm`, `lg`), and the nav collapses into a toggleable mobile
