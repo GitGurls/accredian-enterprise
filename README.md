@@ -2,8 +2,7 @@
 
 
 
-   results/stats, testimonials, lead form, footer) and rebuilt them as
-   independent, typed components with mock copy.
+   
 2. **Design system first.** All colors and fonts are defined once in
    `app/globals.css` as CSS variables (Tailwind v4's `@theme inline`), so
    every component pulls from the same palette (`ink`, `paper`, `brass`,
