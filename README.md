@@ -1,12 +1,4 @@
 
-
-
-ion
-   system this would be swapped for a real database.
-5. **Responsiveness.** Every section was built mobile-first with Tailwind's
-   breakpoints (`sm`, `lg`), and the nav collapses into a toggleable mobile
-   menu below `md`.
-
 ## AI Usage
 
 I used **Claude** throughout this project. Being transparent about where and how:
