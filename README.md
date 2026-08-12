@@ -1,8 +1,6 @@
 
 ## AI Usage
 
-I used **Claude** throughout this project. Being transparent about where and how:
-
 **Where AI helped:**
 - Scaffolding the Next.js project (`create-next-app` flags) and initial
   Tailwind v4 `@theme` setup.
