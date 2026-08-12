@@ -1,19 +1,6 @@
 
 
 
-**Where AI helped:**
-- Scaffolding the Next.js project (`create-next-app` flags) and initial
-  Tailwind v4 `@theme` setup.
-- Drafting the design token system (color palette, font pairing) and the
-  first pass of each section component (Hero, FeatureGrid, ProcessSteps,
-  StatsLedger, Testimonials, LeadForm, Footer).
-- Writing the `/api/lead` route handler, including validation and the
-  Vercel `/tmp` filesystem fallback.
-- Generating placeholder/mock copy for features, stats, and testimonials
-  based on the real Accredian Enterprise page's messaging.
-- Running `tsc --noEmit`, `next build`, and `eslint` to catch and fix
-  issues (a Fraunces variable-font/weight conflict, a Tailwind border
-  conflict in the stats grid) before submission.
 
 **What I modified/reviewed manually:**
 - Reviewed every generated component against the actual scope of the
