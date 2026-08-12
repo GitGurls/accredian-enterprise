@@ -1,5 +1,5 @@
 
-## AI Usage
+
 
 **Where AI helped:**
 - Scaffolding the Next.js project (`create-next-app` flags) and initial
