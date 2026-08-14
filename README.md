@@ -9,7 +9,3 @@
   cream-and-terracotta palette) rather than accepting the first suggestion.
 - Wrote this README's structure and confirmed the setup/build steps work
   end to end locally before documenting them.
-
-
-_This is an educational clone built for an internship assignment and is not
-affiliated with or endorsed by Accredian._
