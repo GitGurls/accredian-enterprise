@@ -1,8 +1,5 @@
 
 
-
-
-**What I modified/reviewed manually:**
 - Reviewed every generated component against the actual scope of the
   assignment and trimmed anything that felt templated or unnecessary.
 - Verified the responsive behavior and focus states rather than assuming
